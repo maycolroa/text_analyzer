@@ -7,6 +7,37 @@
 
 Este proyecto es una aplicación web que permite realizar diversas operaciones de análisis de texto, como contar palabras, invertir texto, contar caracteres, y más. La aplicación está dividida en un frontend y un backend, los cuales están ejecutados y configurados con Docker para simplificar el despliegue.
 
+## Tabla de Contenidos
+
+```
+Descripción del Proyecto
+```
+
+```
+Estructura del Proyecto
+```
+
+```
+Configuración de Docker
+```
+
+
+```
+Explicación del Backend
+```
+
+```
+Explicación del Frontend
+```
+
+```
+Cómo Ejecutar el Proyecto
+```
+
+```
+Explicación del Proceso de Análisis
+```
+
 ## Project setup
 
 ```bash
