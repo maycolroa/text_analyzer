@@ -29,11 +29,7 @@ Este proyecto es una aplicación web que permite realizar diversas operaciones d
 
 ## Estructura del Proyecto
 
-![image](https://github.com/user-attachments/assets/5ed8130e-d741-4ce8-af7e-960fb8ce83e8)
-
-![image](https://github.com/user-attachments/assets/0942ae16-2594-49e0-b4e1-a11b0b52980a)
-
-![image](https://github.com/user-attachments/assets/ed17533d-9271-49df-ab0c-e622fe80e84c)
+![image](https://github.com/user-attachments/assets/25505ea7-d54c-4ebc-8bd3-1520c9eefb7f)
 
 ## Configuración de Docker
 
@@ -73,23 +69,17 @@ services:
       - VITE_API_URL=http://localhost:8000  # URL del backend
 ```
 
+## Explicación del Backend
 
-```bash
-$ npm install
-```
+El backend está desarrollado en Python usando FastAPI, un framework web rápido y moderno que permite construir APIs de manera sencilla.
 
-## Compile and run the project
+- main.py: Este archivo es el punto de entrada de la aplicación de FastAPI. Configura la API y establece los parámetros de CORS (Cross-Origin Resource Sharing) para permitir que el frontend acceda a la API.
 
-```bash
-# development
-$ npm run start
+- Controlador (text_analyzer.py): El controlador gestiona las rutas que reciben las solicitudes desde el frontend. Aquí es donde se define la lógica para los endpoints de análisis de texto, los cuales llaman a servicios específicos para procesar el texto.
 
-# watch mode
-$ npm run start:dev
+- Servicios (text_service.py): Este archivo contiene la lógica principal de procesamiento de texto. Utiliza los métodos de cadenas de Python para contar palabras, invertir texto, buscar palabras específicas, etc.
 
-# production mode
-$ npm run start:prod
-```
+- Modelos (request_models.py): Este archivo define los modelos de datos usados en las solicitudes y respuestas. Permite a FastAPI validar los datos entrantes de manera sencilla.
 
 ## Run tests
 
