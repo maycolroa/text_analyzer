@@ -1,8 +1,5 @@
 ![logopython](https://github.com/user-attachments/assets/30173a6c-2700-4567-8190-27e24c27f8ee)
 
-  <p align="center">Aplicacion para analizar texto con python y vue.js.</p>
-    <p align="center">
-
 ## Description
 
 Este proyecto es una aplicación web que permite realizar diversas operaciones de análisis de texto, como contar palabras, invertir texto, contar caracteres, y más. La aplicación está dividida en un frontend y un backend, los cuales están ejecutados y configurados con Docker para simplificar el despliegue.
@@ -32,34 +29,11 @@ Este proyecto es una aplicación web que permite realizar diversas operaciones d
 
 ## Estructura del Proyecto
 
-text_analyzer/
-│
-├── backend/
-│   ├── .env                        # Variables de entorno para el backend
-│   ├── Dockerfile                  # Dockerfile para construir la imagen del backend
-│   ├── requirements.txt            # Dependencias de Python para FastAPI
-│   └── app/
-│       ├── main.py                 # Punto de entrada para la API de FastAPI
-│       ├── controllers/
-│       │   └── text_analyzer.py    # Controlador para las funciones de análisis de texto
-│       ├── models/
-│       │   └── request_models.py   # Modelos de datos para las solicitudes
-│       └── services/
-│           └── text_service.py     # Lógica para el procesamiento de texto
-│
-├── frontend/
-│   ├── .env                        # Variables de entorno para el frontend
-│   ├── Dockerfile                  # Dockerfile para construir la imagen del frontend
-│   ├── package.json                # Dependencias de Node.js para Vue.js
-│   ├── public/
-│   │   └── index.html              # Archivo HTML base de Vue.js
-│   └── src/
-│       ├── App.vue                 # Componente principal de Vue.js
-│       ├── main.js                 # Punto de entrada de la aplicación Vue.js
-│       ├── components/
-│       │   └── TextAnalyzer.vue    # Componente para la interfaz de análisis de texto
-│
-└── docker-compose.yml              # Configuración de Docker Compose para ambos servicios
+![image](https://github.com/user-attachments/assets/5ed8130e-d741-4ce8-af7e-960fb8ce83e8)
+
+![image](https://github.com/user-attachments/assets/0942ae16-2594-49e0-b4e1-a11b0b52980a)
+
+![image](https://github.com/user-attachments/assets/ed17533d-9271-49df-ab0c-e622fe80e84c)
 
 ## Configuración de Docker
 
