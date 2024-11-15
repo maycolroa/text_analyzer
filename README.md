@@ -81,41 +81,40 @@ El backend está desarrollado en Python usando FastAPI, un framework web rápido
 
 - Modelos (request_models.py): Este archivo define los modelos de datos usados en las solicitudes y respuestas. Permite a FastAPI validar los datos entrantes de manera sencilla.
 
-## Run tests
+## Explicación del Frontend
+
+El frontend está desarrollado con Vue.js y se encarga de la interfaz gráfica con la que interactúa el usuario.
+
+- App.vue: El componente principal de la aplicación, que sirve como contenedor para el componente de análisis de texto.
+
+- TextAnalyzer.vue: Este componente contiene la lógica de la interfaz. Proporciona botones para cada una de las operaciones de análisis (contar palabras, invertir texto, contar caracteres, etc.). Usa Axios para enviar las solicitudes al backend y mostrar los resultados.
+
+- Estilos: Utiliza Tailwind CSS para aplicar estilos a los botones y la interfaz de usuario, haciendo que la aplicación se vea moderna y responsiva.
+
+## Cómo Ejecutar el Proyecto
 
 ```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
+$ git clone https://github.com/tu_usuario/text_analyzer.git
 
-# test coverage
-$ npm run test:cov
+$ cd text_analyzer
+
 ```
 
-## Resources
+```bash
 
-Check out a few resources that may come in handy when working with NestJS:
+$ docker-compose up --build
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+```
 
-## Support
+Accede a la Aplicación:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+- Frontend: Abre un navegador y ve a http://localhost:8080.
+- Backend: La API de FastAPI está disponible en http://localhost:8000.
+
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [maycol roa](https://www.linkedin.com/in/maycol-david-roa-trivi%C3%B1o-14b27a106/)
+- Website - [portafolio](https://maycol.webflow.io/about)
 
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
