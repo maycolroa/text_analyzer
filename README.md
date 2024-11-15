@@ -1,6 +1,4 @@
-<p align="center">
-  ![logopython](https://github.com/user-attachments/assets/30173a6c-2700-4567-8190-27e24c27f8ee)
-</p>
+![logopython](https://github.com/user-attachments/assets/30173a6c-2700-4567-8190-27e24c27f8ee)
 
   <p align="center">Aplicacion para analizar texto con python y vue.js.</p>
     <p align="center">
