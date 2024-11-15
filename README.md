@@ -25,7 +25,7 @@ Este proyecto es una aplicación web que permite realizar diversas operaciones d
 
 - La aplicación de Análisis de Texto permite al usuario realizar varias operaciones sobre un texto ingresado. A través de un frontend desarrollado con Vue.js, el usuario puede seleccionar diferentes opciones de análisis y ver los resultados en tiempo real. El backend, desarrollado con FastAPI, procesa el texto y realiza los cálculos solicitados por el frontend. Ambas aplicaciones están configuradas para ejecutarse en contenedores Docker, lo que facilita su despliegue en cualquier sistema que soporte Docker.
 
-![image](https://github.com/user-attachments/assets/ed042e8b-c4b9-4898-88e0-018d7a34512b)
+![image](https://github.com/user-attachments/assets/8415700d-a679-42c8-92dc-80f599445898)
 
 ## Estructura del Proyecto
 
@@ -110,7 +110,7 @@ $ docker-compose up --build
 Accede a la Aplicación:
 
 - Frontend: Abre un navegador y ve a http://localhost:8080.
-- Backend: La API de FastAPI está disponible en http://localhost:8000.
+- Backend: La API de FastAPI está disponible en http://localhost:8000/docs#/.
 
 
 ## Stay in touch
