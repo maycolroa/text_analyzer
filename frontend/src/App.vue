@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>Aplicación de Análisis de Texto</h1>
     <TextAnalyzer />
   </div>
 </template>
